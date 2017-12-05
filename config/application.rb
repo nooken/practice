@@ -16,5 +16,6 @@ module Practice
     # -- all .rb files in that directory are automatically loaded.
 
     config.time_zone = 'Tokyo'
+    config.i18n.available_locales = %i(ja en)
   end
 end
